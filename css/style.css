@@ -1,0 +1,61 @@
+.container {
+  max-width: 960px;
+}
+
+.simple-header {
+  max-width: 700px;
+}
+
+h1, h2, h3, h4, h5, h6, p, .a, .navbar-brand, .btn {
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+h1 {
+  font-weight: 400 !important;
+}
+
+h2 {
+  font-weight: 600 !important;
+}
+
+p {
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  color: #637381 !important;
+}
+
+.custom-button {
+  background-color: #ff6255 !important;
+  border-radius: 3px;
+  border-color: #ff6255 !important;
+  font-weight: 600 !important!;
+}
+
+.purple {
+  background: linear-gradient(26deg,#5137AD, #6C4DCC 75%);
+}
+
+.text-inverse {
+  color: #fff !important;
+}
+
+.full-page {
+  min-height: calc(100vh - 40px);
+}
+
+.jumbotron {
+  margin-top: 40px;
+}
+
+#team {
+  position: relative;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  display: block;
+  overflow: hidden;
+}
